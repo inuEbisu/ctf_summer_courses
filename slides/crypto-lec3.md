@@ -328,7 +328,7 @@ LWE问题
   - 对于一个$n$维的格$L$，里面都包含了一个非零向量$\vec{v}$满足 $$||\vec{v}||\leq\sqrt{n}det(L)^{1/n}$$
   - $n$代表格的维度即基向量的数量，通常格的维度与基向量的维度一致，这样构造出来的矩阵就是个方阵，从而能够计算格的行列式
 - Gaussian Heuristic
-  - 高斯启发式和Hermite定理类似，都是对格中的最短向量的上界进行约束：$$||\vec{v}||\leq\sqrt{\frac{n}{2\pi e}}det(L)^{1/n}$$
+  - 高斯启发式给出了随机格中最短非零向量长度的一个期望值：$$||\vec{v}_{\text{shortest}}||\approx\sqrt{\frac{n}{2\pi e}}\det(L)^{1/n}$$
 
 <!-- v -->
 <!-- .slide: data-background="crypto-lec3/background.webp" -->

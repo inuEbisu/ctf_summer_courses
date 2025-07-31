@@ -565,7 +565,7 @@ $$
 - Howgrave-Graham Lemma
   - 假设$F(x_0) \equiv 0 \bmod M$，那么当$||b_F||<\frac{M}{\sqrt{d+1}}$时，有$F(x_0) = 0$
   - 证明：$|F(x_0)| = |\sum_{i=0}^d a_ix_0^i| \leq \sum_{i=0}^d |a_i||x_0|^i \leq \sum_{i=0}^d |a_i|X^i$
-  - 根据柯西不等式有$\sum_{i=1}^nx_i \leq \sqrt{n\sum_{i=1}^nx_i^2} = \sqrt{n}||(x_1,x_2,...,x_n)||$，在这里即$\sum_{i=0}^d |a_i|X^i \leq \sqrt{d+1}||b_F|| \leq \frac{\sqrt{d+1}M}{d+1} = M$
+  - 根据柯西不等式有$\sum_{i=1}^nx_i \leq \sqrt{n\sum_{i=1}^nx_i^2} = \sqrt{n}||(x_1,x_2,...,x_n)||$，在这里即$\sum_{i=0}^d |a_i|X^i \leq \sqrt{d+1}||b_F|| \leq \frac{\sqrt{d+1}M}{\sqrt{d+1}} = M$
   - 因此$-M < F(x_0) < M$，而$F(x_0) \equiv 0 \bmod M$，所以$F(x_0) = 0$
 
 </div>
